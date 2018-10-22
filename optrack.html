@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Optrack</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="optrack.css">
+
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img src="images/drug2.jpg" alt="">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="#">Drug Details</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container" id="cont">
+      <hr>
+      <div id="left">
+          <img src="images/drug1.jpg" width="200px" length="200px" alt="">
+          <img src="/" width="200px" length="200px" alt="">
+      </div>
+      <br>
+      <br>
+      <div class="container">
+      <table >
+        <tr>
+          <th>Drug ID</th>
+          <th>Manufacturer</th>
+          <th>Distributor</th>
+          <th>Pharmacy</th>
+          <th>Assessment</th>
+          <th>Results</th>
+        </tr>
+        <tr>
+          <th>
+            <ul>Atorvastatin</ul>
+            <ul>NDC: 51655-610-30 </ul>
+            <ul>MFC: 633304-827-08</ul>
+            <ul>Lot: NW30180001 </ul>
+            <ul>Exp Date: 05/2020</ul>
+            <ul>RFID: L-12-20 </ul>
+            <ul> RFID: L-12-20 </ul>
+            <ul>TX# 0X5006B2BEFB1D444BE843A90</ul>
+
+          </th>
+          <th> <input type="checkbox" id="a1" name="s" value="accept" required >
+          </th>
+          <th> <input type="checkbox" id="a2" name="t" required>
+          </th>
+          <th> <input type="checkbox" id="a4" name="d" required>
+          </th>
+        <th>  <button id="btn1">Submit</button></th>
+        <th><p id="result"></p> </th>
+        </tr>
+        <tr>
+          <th>
+            <ul>Atorvastatin</ul>
+            <ul>NDC: 18273-220-27 </ul>
+            <ul>MFC: 92334-923-91</ul>
+            <ul>Lot: VW32341022 </ul>
+            <ul>Exp Date: 08/2020</ul>
+            <ul> RFID: L-12-89 </ul>
+            <ul>TX# 8X6506B2BEFB1D444BE843A90</ul>
+          </th>
+          <th> <input type="checkbox" id="b1" value="" required>
+          </th>
+          <th> <input type="checkbox" id="b2" value="" required>
+          <th> <input type="checkbox" id="b4" value="" required>
+          </th>
+           <th> <button id="btn2">Submit</button></th>
+           <th><p id="resul"></p> </th>
+        </tr>
+        <tr>
+          <th>
+            <ul>Atorvastatin</ul>
+            <ul>NDC: 12352-345-62 </ul>
+            <ul>MFC: 983334-345-81</ul>
+            <ul>Lot: PO31234032 </ul>
+            <ul>Exp Date: 12/2020</ul>
+            <ul> RFID: L-17-90 </ul>
+            <ul>TX# 9T8006B2BEFB1D444BE849W91</ul>
+          </th>
+          <th> <input type="checkbox" id="c1" value="" required>
+          </th>
+          <th> <input type="checkbox" id="c2" value="" required>
+          <th> <input type="checkbox" id="c4" value="" required>
+          </th>
+          <th> <button id="btn3">Submit</button></th>
+          <th><p id="res"></p> </th>
+        </tr>
+      </table>
+      </div>
+      <hr>
+</div>
+<div class="container">
+  <div id="right">
+
+      <img src="images/checkerlist.png"  alt="">
+
+      <img src="/" width="75px" height="50px" alt="">
+  </div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="optrack.js">
+  </script>
+</body>
+</html>

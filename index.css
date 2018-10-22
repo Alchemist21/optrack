@@ -1,0 +1,20 @@
+img {
+  width: 75px;
+  height: 50px;
+}
+
+.navbar {
+    background-color: ffffff;
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+
+.row.content {height: 450px}
+
+
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+  }
